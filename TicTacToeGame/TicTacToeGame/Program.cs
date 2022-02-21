@@ -14,7 +14,7 @@ namespace TicTacToeGame
 
             TicTacToe game=new TicTacToe();
             game.CreateBoard();
-            
+            game.ChooseLetter();
             Console.ReadLine();
         }
     }
