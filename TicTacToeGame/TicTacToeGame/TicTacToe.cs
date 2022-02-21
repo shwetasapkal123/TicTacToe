@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TicTacToeGame
 {
-    public class CreateBoard
+    public class TicTacToe
     {
-        public char[] CreateBoardForGame()
+        public char[] CreateBoard()
         {
             char[] board = new char[10];
-            for(int i=0;i<board.Length;i++)
+            for(int i=1;i<board.Length;i++)
             {
                 board[i] = ' ';
             }
